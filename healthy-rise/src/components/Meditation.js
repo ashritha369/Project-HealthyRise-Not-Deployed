@@ -1,4 +1,10 @@
+import SingleItemTask from "./SingleItemOfTask";
+
 function Meditation() {
-  return <>Meditation</>;
+  return (
+    <>
+      <SingleItemTask />
+    </>
+  );
 }
 export default Meditation;

@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS */
+a {
+  text-decoration: none;
+}
+.menu-task-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 0, 128, 0.269);
+  height: 50px;
+  margin: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* temporary */
+#task-item {
+  background-color: rgba(0, 0, 255, 0.146);
+}
+/* SINGLE-ITEM-TASK-CSS */
+.task-heading {
+  text-align: center;
+}
+.sub-task-heading {
+  text-align: center;
+}
+.description-and-media {
+  /* background-color: #61dafb; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.description {
+  background-color: rgba(255, 0, 0, 0.329);
+}
+.media {
+  background-color: rgba(0, 128, 0, 0.324);
+}
+
+@media (max-width: 880px) {
+  .description-and-media {
+    /* background-color: #61dafb; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+@media (max-width: 880px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

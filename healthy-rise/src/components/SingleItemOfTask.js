@@ -1,4 +1,6 @@
-function SingleItemTask() {
+import Meditation from "./Meditation";
+
+function SingleItemTask(props) {
   return (
     <>
       <div className="single-item-sub-container" id="single-item">
@@ -13,7 +15,7 @@ function SingleItemTask() {
               className="responsive-iframe"
               width="100%"
               height="300"
-              src="https://www.youtube.com/embed/BG79IpCBJTk"
+              src={props.youtubeUrl}
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

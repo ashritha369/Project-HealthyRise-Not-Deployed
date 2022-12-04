@@ -19,3 +19,5 @@ npm i react-router-dom
 5. making logo or images responsive
 
 [https://www.tutorialspoint.com/How-to-make-an-image-responsive-in-HTML#:~:text=Responsive%20images%20will%20automatically%20adjust,an%20image%20responsive%20in%20HTML.](https://www.tutorialspoint.com/How-to-make-an-image-responsive-in-HTML#:~:text=Responsive%20images%20will%20automatically%20adjust,an%20image%20responsive%20in%20HTML.)
+
+6. How to Scroll to Top, Bottom or Any Section in React with a Button Component [https://stackabuse.com/how-to-scroll-to-top-in-react-with-a-button-component/](https://stackabuse.com/how-to-scroll-to-top-in-react-with-a-button-component/)

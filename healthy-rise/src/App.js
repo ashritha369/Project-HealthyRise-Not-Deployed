@@ -29,6 +29,7 @@ import { Link } from "react-router-dom";
 import logo from "./Imgs/Healthy.png";
 // use ref hook to scroll to a particular section
 import { useRef } from "react";
+import warmUpLogo from "./Imgs/warmup.jpg";
 
 function App() {
   const selectedSection = useRef(null);
@@ -42,7 +43,7 @@ function App() {
   return (
     <>
       <div className="header-container">
-        <img src={logo} id="logo"></img>
+        <img src={logo} id="logo" alt="logo"></img>
       </div>
       <div className="menu-container">
         {/* MEDITATION */}
@@ -111,6 +112,7 @@ function App() {
             <button onClick={scrollDown}>GRATEFUL-FOR</button>
           </div>
         </Link>
+
         {/* WHEN-YOU-FEEL-LOW*/}
         <Link to="/whenyoufeellow">
           <div className="menu-task-cards" id="whenyoufeellow-menu-card">

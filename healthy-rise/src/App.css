@@ -1,42 +1,7 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* CSS */
 .header-container {
   display: flex;
@@ -46,6 +11,10 @@
 
 a {
   text-decoration: none;
+  border: 2px solid #f0bdff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
 }
 .menu-task-cards {
   display: flex;
@@ -113,4 +82,58 @@ a {
     width: 100%;
     height: auto;
   }
+}
+/* styling the menu divs */
+.menu-task-cards {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+#meditation-menu-card {
+  background-image: url("./Imgs//meditation.png");
+}
+#faceyoga-menu-card {
+  background-image: url("./Imgs/faceyoga.jpg");
+}
+#warmup-menu-card {
+  background-image: url("./Imgs/warmup.jpg");
+}
+#gym-menu-card {
+  background-image: url("./Imgs//gym.jpg");
+}
+#cardio-menu-card {
+  background-image: url("./Imgs//cardio.png");
+}
+#yoga-menu-card {
+  background-image: url("./Imgs//yoga.png");
+}
+#healthymeals-menu-card {
+  background-image: url("./Imgs//healthymeals.png");
+}
+#selfcare-menu-card {
+  background-image: url("./Imgs//selfcare.jpg");
+}
+#favorite-menu-card {
+  background-image: url("./Imgs//favorites.jpg");
+}
+#bedtimewarmup-menu-card {
+  background-image: url("./Imgs//bedtimewarmup.jpg");
+}
+#gratefulfor-menu-card {
+  background-image: url("./Imgs//gratefulfor.jpg");
+}
+#whenyoufeellow-menu-card {
+  background-image: url("./Imgs//whenyoufeellow.png");
+}
+button {
+  border: 2px solid white;
+  /* color: rgb(223, 93, 255); */
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+}
+button:hover {
+  background: rgb(216, 60, 255);
 }

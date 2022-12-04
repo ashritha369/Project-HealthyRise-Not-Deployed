@@ -54,67 +54,67 @@ function App() {
         {/* FACE-YOGA*/}
         <Link to="/faceyoga">
           <div className="menu-task-cards" id="faceyoga-menu-card">
-            <button>FACEYOGA</button>
+            <button onClick={scrollDown}>FACEYOGA</button>
           </div>
         </Link>
         {/* WARM-UP*/}
         <Link to="/warmup">
           <div className="menu-task-cards" id="warmup-menu-card">
-            <button>WARM-UP</button>
+            <button onClick={scrollDown}>WARM-UP</button>
           </div>
         </Link>
         {/* GYM*/}
         <Link to="/gym">
           <div className="menu-task-cards" id="gym-menu-card">
-            <button>GYM</button>
+            <button onClick={scrollDown}>GYM</button>
           </div>
         </Link>
         {/* CARDIO*/}
         <Link to="/cardio">
           <div className="menu-task-cards" id="cardio-menu-card">
-            <button>CARDIO</button>
+            <button onClick={scrollDown}>CARDIO</button>
           </div>
         </Link>
         {/* YOGA*/}
         <Link to="/yoga">
           <div className="menu-task-cards" id="yoga-menu-card">
-            <button>YOGA</button>
+            <button onClick={scrollDown}>YOGA</button>
           </div>
         </Link>
         {/* HEALTHY-MEALS*/}
         <Link to="/healthymeals">
           <div className="menu-task-cards" id="healthymeals-menu-card">
-            <button>HEALTHY-MEALS</button>
+            <button onClick={scrollDown}>HEALTHY-MEALS</button>
           </div>
         </Link>
         {/* SELF-CARE*/}
         <Link to="/selfcare">
           <div className="menu-task-cards" id="selfcare-menu-card">
-            <button>SELF-CARE</button>
+            <button onClick={scrollDown}>SELF-CARE</button>
           </div>
         </Link>
         {/* FAVORITE*/}
         <Link to="/favorite">
           <div className="menu-task-cards" id="favorite-menu-card">
-            <button>FAVORITES</button>
+            <button onClick={scrollDown}>FAVORITES</button>
           </div>
         </Link>
         {/* BED-TIME-WARMUP*/}
         <Link to="/bedtimewarmup">
           <div className="menu-task-cards" id="bedtimewarmup-menu-card">
-            <button>BEDTIME WARM UP</button>
+            <button onClick={scrollDown}>BEDTIME WARM UP</button>
           </div>
         </Link>
         {/* GRATEFUL-FOR*/}
         <Link to="/gratefulfor">
           <div className="menu-task-cards" id="gratefulfor-menu-card">
-            <button>GRATEFUL-FOR</button>
+            <button onClick={scrollDown}>GRATEFUL-FOR</button>
           </div>
         </Link>
         {/* WHEN-YOU-FEEL-LOW*/}
         <Link to="/whenyoufeellow">
           <div className="menu-task-cards" id="whenyoufeellow-menu-card">
-            <button>WHEN YOU FEEL LOW</button>
+            <button onClick={scrollDown}>WHEN YOU FEEL LOW</button>
           </div>
         </Link>
       </div>

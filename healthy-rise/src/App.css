@@ -38,6 +38,12 @@
 }
 
 /* CSS */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -50,11 +56,13 @@ a {
   margin: 5px;
 }
 
-.container {
+.menu-container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-
+.menu-task-cards {
+  height: 200px;
+}
 /* temporary */
 #task-item {
   background-color: rgba(0, 0, 255, 0.146);
@@ -93,8 +101,16 @@ a {
   }
 }
 @media (max-width: 880px) {
-  .container {
+  .menu-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 300px) {
+  /* making logo responsive */
+  #logo {
+    width: 100%;
+    height: auto;
   }
 }

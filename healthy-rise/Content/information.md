@@ -15,3 +15,7 @@ npm i react-router-dom
 4. Sending props to components in react
 
 [https://beta.reactjs.org/learn/passing-props-to-a-component](https://beta.reactjs.org/learn/passing-props-to-a-component)
+
+5. making logo or images responsive
+
+[https://www.tutorialspoint.com/How-to-make-an-image-responsive-in-HTML#:~:text=Responsive%20images%20will%20automatically%20adjust,an%20image%20responsive%20in%20HTML.](https://www.tutorialspoint.com/How-to-make-an-image-responsive-in-HTML#:~:text=Responsive%20images%20will%20automatically%20adjust,an%20image%20responsive%20in%20HTML.)

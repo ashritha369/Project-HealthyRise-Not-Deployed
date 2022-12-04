@@ -26,81 +26,85 @@ import WarmUp from "./components/WarmUp";
 import WhenYouFeelLow from "./components/WhenYouFeelLow";
 import Cardio from "./components/Cardio";
 import { Link } from "react-router-dom";
+import logo from "./Imgs/Healthy.png";
 
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="header-container">
+        <img src={logo} id="logo"></img>
+      </div>
+      <div className="menu-container">
         {/* MEDITATION */}
         <Link to="/mediation">
           <div className="menu-task-cards" id="meditation-menu-card">
-            <h4>MEDITATION</h4>
+            <button>MEDITATION</button>
           </div>
         </Link>
         {/* FACE-YOGA*/}
         <Link to="/faceyoga">
           <div className="menu-task-cards" id="faceyoga-menu-card">
-            <h4>FACEYOGA</h4>
+            <button>FACEYOGA</button>
           </div>
         </Link>
         {/* WARM-UP*/}
         <Link to="/warmup">
           <div className="menu-task-cards" id="warmup-menu-card">
-            <h4>WARM-UP</h4>
+            <button>WARM-UP</button>
           </div>
         </Link>
         {/* GYM*/}
         <Link to="/gym">
           <div className="menu-task-cards" id="gym-menu-card">
-            <h4>GYM</h4>
+            <button>GYM</button>
           </div>
         </Link>
         {/* CARDIO*/}
         <Link to="/cardio">
           <div className="menu-task-cards" id="cardio-menu-card">
-            <h4>CARDIO</h4>
+            <button>CARDIO</button>
           </div>
         </Link>
         {/* YOGA*/}
         <Link to="/yoga">
           <div className="menu-task-cards" id="yoga-menu-card">
-            <h4>YOGA</h4>
+            <button>YOGA</button>
           </div>
         </Link>
         {/* HEALTHY-MEALS*/}
         <Link to="/healthymeals">
           <div className="menu-task-cards" id="healthymeals-menu-card">
-            <h4>HEALTHY-MEALS</h4>
+            <button>HEALTHY-MEALS</button>
           </div>
         </Link>
         {/* SELF-CARE*/}
         <Link to="/selfcare">
           <div className="menu-task-cards" id="selfcare-menu-card">
-            <h4>SELF-CARE</h4>
+            <button>SELF-CARE</button>
           </div>
         </Link>
         {/* FAVORITE*/}
         <Link to="/favorite">
           <div className="menu-task-cards" id="favorite-menu-card">
-            <h4>FAVORITES</h4>
+            <button>FAVORITES</button>
           </div>
         </Link>
         {/* BED-TIME-WARMUP*/}
         <Link to="/bedtimewarmup">
           <div className="menu-task-cards" id="bedtimewarmup-menu-card">
-            <h4>BEDTIME WARM UP</h4>
+            <button>BEDTIME WARM UP</button>
           </div>
         </Link>
         {/* GRATEFUL-FOR*/}
         <Link to="/gratefulfor">
           <div className="menu-task-cards" id="gratefulfor-menu-card">
-            <h4>GRATEFUL-FOR</h4>
+            <button>GRATEFUL-FOR</button>
           </div>
         </Link>
         {/* WHEN-YOU-FEEL-LOW*/}
         <Link to="/whenyoufeellow">
           <div className="menu-task-cards" id="whenyoufeellow-menu-card">
-            <h4>WHEN YOU FEEL LOW</h4>
+            <button>WHEN YOU FEEL LOW</button>
           </div>
         </Link>
       </div>

@@ -27,8 +27,18 @@ import WhenYouFeelLow from "./components/WhenYouFeelLow";
 import Cardio from "./components/Cardio";
 import { Link } from "react-router-dom";
 import logo from "./Imgs/Healthy.png";
+// use ref hook to scroll to a particular section
+import { useRef } from "react";
 
 function App() {
+  const selectedSection = useRef(null);
+  const scrollDown = () => {
+    window.scrollTo({
+      top: selectedSection.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div className="header-container">
@@ -38,7 +48,7 @@ function App() {
         {/* MEDITATION */}
         <Link to="/mediation">
           <div className="menu-task-cards" id="meditation-menu-card">
-            <button>MEDITATION</button>
+            <button onClick={scrollDown}>MEDITATION</button>
           </div>
         </Link>
         {/* FACE-YOGA*/}
@@ -109,6 +119,7 @@ function App() {
         </Link>
       </div>
       {/* ROUTES SETUP-WITH REACT-ROUTER-DOM */}
+      <div className="selectedContainer" ref={selectedSection}></div>
       <Routes>
         <Route path="/Mediation" element={<Meditation />} />
         <Route path="/BedTimeWarmUp" element={<BedTimeWarmUp />} />

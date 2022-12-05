@@ -137,3 +137,40 @@ button {
 button:hover {
   background: rgb(216, 60, 255);
 }
+/* styling each menu-card items */
+.task-heading {
+  color: rgb(192, 238, 92);
+}
+.sub-task-heading {
+  color: rgb(255, 212, 255);
+}
+
+.item {
+  margin: 15px;
+}
+.description-and-media {
+  border-bottom: 2px dashed rgb(192, 238, 92);
+  margin-top: 20px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.488);
+  border: 2px solid rgb(255, 212, 255);
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+iframe.responsive-iframe {
+  border-radius: 10px;
+}
+.media.item {
+  border-radius: 10px;
+  border: 2px solid rgb(255, 212, 255);
+}
+.description-title {
+  color: rgb(192, 238, 92);
+}

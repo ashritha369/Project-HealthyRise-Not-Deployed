@@ -29,7 +29,6 @@ import { Link } from "react-router-dom";
 import logo from "./Imgs/Healthy.png";
 // use ref hook to scroll to a particular section
 import { useRef } from "react";
-import warmUpLogo from "./Imgs/warmup.jpg";
 
 function App() {
   const selectedSection = useRef(null);

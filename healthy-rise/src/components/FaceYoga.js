@@ -2,7 +2,6 @@ import SingleItemTask from "./SingleItemOfTask";
 function FaceYoga() {
   return (
     <>
-      {" "}
       <div id="meditation-container">
         <h1 className="task-heading">FACE YOGA</h1>
         <h2 className="sub-task-heading">Why faceyoga is so important?</h2>

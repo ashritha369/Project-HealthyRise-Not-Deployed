@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
 import logo from "./Imgs/Healthy.png";
 // use ref hook to scroll to a particular section
 import { useRef } from "react";
-
+import ScrollToTop from "react-scroll-to-top";
 function App() {
   const selectedSection = useRef(null);
   const scrollDown = () => {
@@ -40,16 +40,17 @@ function App() {
   };
   // append  div inside div- NEED TO WORK ON THIS
   window.addEventListener("onload", function () {
-    // const selectedContainer =
-    //   document.getElementsByClassName("selectedContainer");
-    // console.log(selectedContainer);
-    // const innerDiv = document.getElementsByClassName("inner-div");
-    // selectedContainer.appendChild(innerDiv);
-    ////
+    const selectedContainer =
+      document.getElementsByClassName("selectedContainer");
+
+    const innerDiv = document.getElementsByClassName("inner-div");
+    selectedContainer.innerHTML = innerDiv;
+    //
   });
 
   return (
     <>
+      <ScrollToTop />
       <div className="header-container">
         <img src={logo} id="logo" alt="logo"></img>
       </div>

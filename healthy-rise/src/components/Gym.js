@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function Gym() {
   return (
     <>
-      <div id="gym-container">
+      <div id="gym-container" className="inner-div">
         <h1 className="task-heading">GYM</h1>
         <h2 className="sub-task-heading">Why gym is so important?</h2>
         <SingleItemTask
@@ -20,13 +20,3 @@ function Gym() {
   );
 }
 export default Gym;
-
-<iframe
-  width="782"
-  height="440"
-  src="https://www.youtube.com/embed/IGhQtwzfmXM"
-  title="Workout For Beginners | Complete Beginners Guide To Gym"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>;

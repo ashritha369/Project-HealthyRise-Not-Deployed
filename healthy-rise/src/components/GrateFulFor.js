@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function GrateFulFor() {
   return (
     <>
-      <div id="grateful-container">
+      <div id="grateful-container" className="inner-div">
         <h1 className="task-heading">GRATEFUL FOR</h1>
         <h2 className="sub-task-heading">Why grateful for is so important?</h2>
         <SingleItemTask

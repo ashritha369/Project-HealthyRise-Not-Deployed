@@ -13,3 +13,7 @@
 # ‘Link’ Is Not Defined React/Jsx-No-Undef
 
 [https://www.folkstalk.com/2022/07/link-is-not-defined-react-jsx-no-undef-with-code-examples.html](https://www.folkstalk.com/2022/07/link-is-not-defined-react-jsx-no-undef-with-code-examples.html)
+
+# Can't access the value of HTMLCollection
+
+[https://stackoverflow.com/questions/32222255/cant-access-the-value-of-htmlcollection](https://stackoverflow.com/questions/32222255/cant-access-the-value-of-htmlcollection)

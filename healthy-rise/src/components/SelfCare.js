@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function SelfCare() {
   return (
     <>
-      <div id="meditation-container">
+      <div id="meditation-container" className="inner-div">
         <h1 className="task-heading">SELF CARE</h1>
         <h2 className="sub-task-heading">Why selfcare is so important?</h2>
         <SingleItemTask

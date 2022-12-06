@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function WarmUp() {
   return (
     <>
-      <div id="warmup-container">
+      <div id="warmup-container" className="inner-div">
         <h1 className="task-heading">WARM UP</h1>
         <h2 className="sub-task-heading">Why warm-up is so important?</h2>
         <SingleItemTask
@@ -20,12 +20,3 @@ function WarmUp() {
   );
 }
 export default WarmUp;
-<iframe
-  width="782"
-  height="440"
-  src="https://www.youtube.com/embed/VecbXgWY0DI"
-  title="WARM UP ROUTINE BEFORE WORKOUT | Quick and Effective | Rowan Row"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>;

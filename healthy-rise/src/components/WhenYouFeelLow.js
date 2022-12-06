@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function WhenYouFeelLow() {
   return (
     <>
-      <div id="whenyoufeellow-container">
+      <div id="whenyoufeellow-container " className="inner-div">
         <h1 className="task-heading">WHEN YOU FEEL LOW</h1>
         <h2 className="sub-task-heading">This too shall pass</h2>
         <SingleItemTask

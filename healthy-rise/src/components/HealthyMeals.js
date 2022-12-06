@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function HealthyMeals() {
   return (
     <>
-      <div id="healthymeals-container">
+      <div id="healthymeals-container" className="inner-div">
         <h1 className="task-heading">HEALTHY MEALS</h1>
         <h2 className="sub-task-heading">Why healthy meals is so important?</h2>
         <SingleItemTask

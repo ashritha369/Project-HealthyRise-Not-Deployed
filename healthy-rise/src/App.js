@@ -38,6 +38,15 @@ function App() {
       behavior: "smooth",
     });
   };
+  // append  div inside div- NEED TO WORK ON THIS
+  window.addEventListener("onload", function () {
+    // const selectedContainer =
+    //   document.getElementsByClassName("selectedContainer");
+    // console.log(selectedContainer);
+    // const innerDiv = document.getElementsByClassName("inner-div");
+    // selectedContainer.appendChild(innerDiv);
+    ////
+  });
 
   return (
     <>
@@ -120,7 +129,9 @@ function App() {
         </Link>
       </div>
       {/* ROUTES SETUP-WITH REACT-ROUTER-DOM */}
-      <div className="selectedContainer" ref={selectedSection}></div>
+      <div className="selectedContainer" ref={selectedSection}>
+        <p>Outer div</p>
+      </div>
       <Routes>
         <Route path="/Mediation" element={<Meditation />} />
         <Route path="/BedTimeWarmUp" element={<BedTimeWarmUp />} />

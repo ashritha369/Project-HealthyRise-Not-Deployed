@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function BedTimeWarmUp() {
   return (
     <>
-      <div id="bedtime-container">
+      <div id="bedtime-container" className="inner-div">
         <h1 className="task-heading">BEDTIME WARM UP</h1>
         <h2 className="sub-task-heading">
           Why bedtime warmup is so important?

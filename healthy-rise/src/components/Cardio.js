@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function Cardio() {
   return (
     <>
-      <div id="cardio-container">
+      <div id="cardio-container" className="inner-div">
         <h1 className="task-heading">CARDIO</h1>
         <h2 className="sub-task-heading">Why cardio is so important?</h2>
         <SingleItemTask

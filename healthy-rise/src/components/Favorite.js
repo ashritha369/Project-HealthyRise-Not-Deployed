@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function Favorite() {
   return (
     <>
-      <div id="favorite-container">
+      <div id="favorite-container" className="inner-div">
         <h1 className="task-heading">FAVORITES</h1>
         <h2 className="sub-task-heading">Why discipline is so important?</h2>
         <SingleItemTask

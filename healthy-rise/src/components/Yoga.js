@@ -2,7 +2,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function Yoga() {
   return (
     <>
-      <div id="yoga-container">
+      <div id="yoga-container" className="inner-div">
         <h1 className="task-heading">YOGA</h1>
         <h2 className="sub-task-heading">Why yoga is so important?</h2>
         <SingleItemTask

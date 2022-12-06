@@ -3,7 +3,7 @@ import SingleItemTask from "./SingleItemOfTask";
 function Meditation() {
   return (
     <>
-      <div id="meditation-container">
+      <div id="meditation-container" className="inner-div">
         <h1 className="task-heading">MEDITATION</h1>
         <h2 className="sub-task-heading">Why meditation is so important?</h2>
         <SingleItemTask
